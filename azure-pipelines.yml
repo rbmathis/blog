@@ -28,7 +28,7 @@ jobs:
       azureSubscription: 'BartAzure'
       scriptType: 'bash'
       scriptLocation: 'inlineScript'
-      inlineScript: 'az aks get-credentials -g KEDA -n nf-keda'
+      inlineScript: 'az aks get-credentials -g rpsls -n rpslsaksekfaqzl34r7cc'
   - task: Bash@3
     name: Get_current_prod
     inputs:
